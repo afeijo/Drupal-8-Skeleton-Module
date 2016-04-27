@@ -1,0 +1,17 @@
+<?php
+
+include_once 'skeleton.views.inc';
+
+function skeleton_page_attachments(array &$attachments) {
+  $routes = ['entity.node.edit_form', 'node.add'];
+  
+  if (in_array(\Drupal::routeMatch()->getRouteName(), $routes )) {
+    $attachments['#attached']['library'][] = 'skeleton/skeleton';
+  }
+
+  $routes = ['entity.node.canonical', 'view.order_history.order_history_view_page'];
+  if (in_array(\Drupal::routeMatch()->getRouteName(), $routes )) {
+    $attachments['#attached']['library'][] = 'skeleton/datepicker';
+  }
+}
+

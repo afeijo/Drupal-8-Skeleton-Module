@@ -1,0 +1,18 @@
+skeleton:
+  version: 1.x
+  js:
+    js/skeleton.js: {}
+  # css:
+  #   theme:
+  #     css/skeleton.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+
+datepicker:
+  version: 1.x
+  js:
+    js/skeleton.datepicker.js: {}
+  dependencies:
+    - core/jquery.ui.datepicker

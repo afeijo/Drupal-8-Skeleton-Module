@@ -1,0 +1,6 @@
+name: Skeleton module
+description: Drupal 8 Skeleton Module
+package: custom
+type: module
+
+core: 8.x
