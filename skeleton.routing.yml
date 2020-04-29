@@ -1,7 +1,7 @@
 skeleton.author:
   path: '/system/ajax/skeleton_test'
   defaults:
-    _controller: 'Drupal\skeleton\Controller\SkeletonController::content'
+    _controller: '\Drupal\skeleton\Controller\SkeletonController::content'
     _title: 'Skeleton Controller'
   requirements:
     _permission: 'access content'
