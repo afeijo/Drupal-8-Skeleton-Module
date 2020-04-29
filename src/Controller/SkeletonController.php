@@ -12,7 +12,7 @@ namespace Drupal\skeleton\Controller;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\views\Views;
 
-class skeletonController extends ControllerBase {
+class SkeletonController extends ControllerBase {
 
   /**
    * {@inheritdoc}
